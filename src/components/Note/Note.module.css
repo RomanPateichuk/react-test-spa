@@ -1,0 +1,27 @@
+.note {
+    background-color: #fafafa;
+    list-style-type: none;
+    word-wrap: break-word;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.note:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.noteContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 13px;
+    font-size: 20px;
+}
+
+.buttonTag {
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    color: #486d93;
+}

@@ -1,0 +1,16 @@
+.inputEditable {
+    max-width: 200px;
+    background-color: transparent;
+    border: none;
+    border-bottom: #ffcc00 2px solid;
+    outline: none;
+}
+
+.spanEditable {
+    display: block;
+    max-width: 210px;
+    margin-right: 5px;
+    font-family: 'Nunito', sans-serif;
+    word-wrap: break-word;
+    cursor: pointer;
+}

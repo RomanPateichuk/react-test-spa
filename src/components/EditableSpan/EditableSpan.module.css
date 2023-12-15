@@ -1,0 +1,19 @@
+.inputEditable {
+    max-width: 200px;
+    background-color: transparent;
+    border: none;
+    border-bottom: #ffcc00 2px solid;
+    outline: none;
+}
+
+.spanEditable {
+    display: block;
+    max-width: 210px;
+    margin-right: 5px;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.spanEditableHilight {
+    color: #ae3e25;
+}

@@ -1,0 +1,109 @@
+.header {
+    padding: 50px 20px 30px;
+    display: flex;
+}
+
+.bodyHeader {
+    min-height: 100px;
+    padding-top: 60px;
+}
+
+.containerHeader {
+    perspective: 80px;
+    width: 20px;
+    height: 20px;
+}
+
+.cubeHeader {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.sideHeader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    opacity: 0.6;
+}
+
+.frontHeader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transform: rotateY(0deg) translateZ(10px);
+    background-color: #ee4444;
+}
+
+.rightHeader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transform: rotateY(90deg) translateZ(10px);
+    background-color: #ffcc00;
+}
+
+.backHeader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transform: rotateY(180deg) translateZ(10px);
+    background-color: #ff1e00;
+}
+
+.leftHeader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transform: rotateY(-90deg) translateZ(10px);
+    background-color: #ff0055;
+}
+
+.topHeader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transform: rotateX(90deg) translateZ(10px);
+    background-color: #fffb00;
+}
+
+.bottomHeader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transform: rotateX(-90deg) translateZ(10px);
+    background-color: #ee00ff;
+}
+
+.titleHeader {
+    max-width: 450px;
+    margin-left: 5px;
+    font-family: 'Climate Crisis', sans-serif;
+    font-size: 56px;
+    color: #ffcc00;
+    display: flex;
+}
+
+.titleShadow {
+    text-shadow: 4px 4px 2px rgba(244, 9, 133, 1);
+}
+
+.inputHeader {
+    max-width: 340px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 100px;
+    align-self: center;
+}
+
+
+
+

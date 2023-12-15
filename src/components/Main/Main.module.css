@@ -1,0 +1,24 @@
+.mainTags {
+    min-height: 70px;
+    padding: 20px 0;
+}
+
+.mainContaier {
+    padding: 10px;
+    flex-shrink: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.buttonTag {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #ffea00;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.footer{
+   color:#fafafa;
+   font-family: 'Climate Crisis', sans-serif;
+   flex-shrink: 0;
+   text-shadow:  4px 4px 2px #486d93;
+
+}
+
+.parallax {
+   overflow: hidden;
+   letter-spacing: -2px;
+   line-height: 0.9;
+   margin: 0;
+   white-space: nowrap;
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.parallax .scroller {
+   font-weight: 600;
+   text-transform: uppercase;
+   font-size: 48px;
+   display: flex;
+   white-space: nowrap;
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.parallax span {
+   display: block;
+   margin-right: 30px;
+}
+
