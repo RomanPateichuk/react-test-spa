@@ -22,7 +22,7 @@
 1. для ui framer-motion,Material UI
 2. стейт менеджер Redux
 3. хранение данных localStorage
-4. ссылка на билд на Github pages
+4. ссылка на билд на Github pages https://RomanPateichuk.github.io/react-test-spa
 
 
 
